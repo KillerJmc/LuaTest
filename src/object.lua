@@ -1,5 +1,5 @@
 -- 建立table作为对象
-Student = {
+local Student = {
     id = nil,
     name = nil
 }
