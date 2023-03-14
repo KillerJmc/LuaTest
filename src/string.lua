@@ -14,3 +14,6 @@ print(string.reverse("cmd"))
 print(string.format("j%sc", "m"))
 print(string.rep("jmc", 3, " "))
 print(string.sub("jmc", 1, 2))
+
+-- 当然，也可以通过语法糖进行简写
+print(("JMC"):lower())
